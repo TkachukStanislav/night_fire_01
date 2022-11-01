@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+  }
+  body {
+    box-sizing: border-box;
+    background-image: url("https://creazilla-store.fra1.digitaloceanspaces.com/vectors/1829/seamless-background-with-leaves-vector-md.png");
+  }
+  button {
+    background-color: #e5ebb2;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #bce29e;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 20%;
+    padding: 5px;
+    background-color: rgba(234, 234, 234, 0.7);
+    border-radius: 5px;
+    filter: drop-shadow(0 0 44px #000);
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .card > * {
+    border-radius: 5px;
+  }
+  
